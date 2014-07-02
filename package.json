@@ -1,0 +1,16 @@
+{
+  "name" : "digit",
+  "version" : "0.0.1",
+
+  "dependencies": {
+    "express": "",
+    "connect": "",
+    "mongoose": "",
+    "underscore": "",
+    "async": "",
+    "png" : "",
+    "csv" : "",
+    "line-reader" : "",
+    "body-parser": ""
+  }
+}
