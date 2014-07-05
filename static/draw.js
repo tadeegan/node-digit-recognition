@@ -79,7 +79,10 @@
             console.log(data);
             $.ajax({
                 contentType: 'application/json',
-                data: JSON.stringify({"pixels": get_image_data()}),
+                data: JSON.stringify({
+                    "pixels": get_image_data(),
+                    "samples": $("#slider")[0].value
+                }),
                 dataType: 'json',
                 success: function(data){
                     alert(data);
